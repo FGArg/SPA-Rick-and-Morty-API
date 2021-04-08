@@ -4,7 +4,7 @@ const Header = () => {
   <div class="Header-main">
       <div class="Header-logo">
           <h1>
-              <a href="/">
+              <a href="https://fgarg.github.io/SPA-Rick-and-Morty-API/">
                   <img src="assets/images/logo.png" alt="Rick & Morty API">
               </a>
           </h1>

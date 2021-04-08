@@ -24,7 +24,7 @@ const Character = async () => {
             <h3>Gender: <span>${character.gender}</span></h3>
             <h3>Origin: <span>${character.origin.name}</span></h3>
             <h3>Last Location: <span>${character.location.name}</span></h3>
-            <a href="/"><button class="simple-button" type="button">Back to home</button></a>
+            <a href="https://fgarg.github.io/SPA-Rick-and-Morty-API/"><button class="simple-button" type="button">Back to home</button></a>
       </article>
 
   </div>

@@ -1,8 +1,8 @@
 const API = ' https://rickandmortyapi.com/api/character/'
 
-const getData = async (id) => {
+const getData = async (hash) => {
   
-  const apiUrl = id ? `${API}${id}` : API
+  const apiUrl = hash ? `${API}${hash}` : API
 
   try {
 

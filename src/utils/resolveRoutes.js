@@ -1,10 +1,12 @@
 const resolveRoutes = (hash) => {
-  console.log(`hash: ${hash}`)
 
-  if(hash.length <= 3) {
-    let validHash = hash === '/' ? hash : '/:id'
-    
-    return validHash
+
+  if (hash === '/'){
+    return hash
+  }else if (hash.length <= 3){
+    return '/:id'
+  }else if (hash.includes('page')){
+    return '/:pages'
   }
 
   return `${hash}`

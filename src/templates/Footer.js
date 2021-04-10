@@ -38,10 +38,10 @@ const generateFooter = (route, pages, actualPage)=>{
            return `
            <h4>Pages</h4>
            <div class="Footer-pages">
-           <span class="footer-nav-button">1</span>
+           <span class="footer-nav-button actual-page">1</span>
            <a class="footer-nav-button" href="#/?page=2/">2</a>
            <a class="footer-nav-button" href="#/?page=3/">3</a>
-           <a class="footer-nav-button" href="#/?page=${pages}/">Last</a>
+           <a class="footer-nav-button footer-nav-limit" href="#/?page=${pages}/">${pages}</a>
            </div>`
         case '/:id': 
             return ` `

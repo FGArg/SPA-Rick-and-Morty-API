@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   color: #00afc7;
+  min-height: 100vh;
   /* font-family: 'Creepster', cursive; */
   font-family: 'Bangers', cursive;
   letter-spacing: 0.2em;
@@ -66,7 +67,9 @@ transform: scale(1.1)
 @media screen and (max-width: 768px){
 
   body {
-    background-size: cover;
+
+    background: rgb(225,241,238);
+    background: linear-gradient(160deg, rgba(225,241,238,1) 40%, rgba(249,220,222,1) 100%);
   }
 
 }
@@ -194,9 +197,9 @@ transform: scale(1.1)
 
 .Character-item-tag{
   height: 60px;
-  min-width: 80%;
+  min-width: 60%;
   background-color: rgba(170, 208, 74, 0.5);
-  padding: 10px 10px;
+  padding: 10px 15px;
   margin: 15px 0;
   border-radius: 50px;
   display: flex;
@@ -221,18 +224,15 @@ transform: scale(1.1)
 
   .Character-item a{
     min-height: 350px;
+    width: 90%;
   }
 
   .Character-item img{
-    width: 240px;
+    width: 100%;
   }
 
   .Character-item-tag{
     height: 40px;
-    min-width: 80%;
-    padding: 10px 10px;
-    margin: 15px 0;
-    border-radius: 50px;
   }
 
   .Character-item h2{
@@ -248,17 +248,13 @@ transform: scale(1.1)
     min-height: 300px;
   }
 
-  .Character-item img{
+  /* .Character-item img{
     width: 200px;
-  }
+  } */
 
 
   .Character-item-tag{
     height: 35px;
-    min-width: 80%;
-    padding: 10px 10px;
-    margin: 15px 0;
-    border-radius: 50px;
   }
 
   .Character-item h2{
